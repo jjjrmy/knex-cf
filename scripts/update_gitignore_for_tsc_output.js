@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const path = require('path');
-const fs = require('fs');
+const fs = require('node:fs');
 
 // Directory constants
 const scriptDirectory = __dirname;

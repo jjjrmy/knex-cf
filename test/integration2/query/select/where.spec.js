@@ -2,7 +2,7 @@
 
 const { expect } = require('chai');
 
-require('assert');
+require('node:assert');
 require('../../../../lib/execution/runner');
 
 const {

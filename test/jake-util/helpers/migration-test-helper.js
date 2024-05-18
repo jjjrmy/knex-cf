@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 
 const os = require('os');
-const fs = require('fs');
+const fs = require('node:fs');
 const child_process = require('child_process');
 const rimrafSync = require('rimraf').sync;
 

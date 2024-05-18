@@ -141,7 +141,7 @@ await knex.transaction(
 
 ```js
 const Client = require('knex');
-const { inherits } = require('util');
+const { inherits } = require('node:util');
 
 // old
 function CustomClient(config) {

@@ -1,8 +1,8 @@
 'use strict';
 /* eslint no-var: 0 */
 
-const assert = require('assert');
-const { promisify } = require('util');
+const assert = require('node:assert');
+const { promisify } = require('node:util');
 const testConfig =
   (process.env.KNEX_TEST && require(process.env.KNEX_TEST)) || {};
 const _ = require('lodash');

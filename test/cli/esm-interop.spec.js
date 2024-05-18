@@ -1,7 +1,7 @@
 'use strict';
-const assert = require('assert');
+const assert = require('node:assert');
 const path = require('path');
-const fs = require('fs');
+const fs = require('node:fs');
 const { execCommand } = require('cli-testlab');
 const sqlite3 = require('sqlite3');
 const semver = require('semver');

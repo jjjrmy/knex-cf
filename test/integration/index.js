@@ -3,7 +3,7 @@
 const knex = require('../../knex');
 const logger = require('./logger');
 const config = require('../knexfile');
-const fs = require('fs');
+const fs = require('node:fs');
 
 Object.keys(config).forEach((dialectName) => {
   console.log(`Loading integration suite for dialect ${dialectName}`);

@@ -17,7 +17,7 @@ const {
 } = require('../../../lib/dialects/sqlite3/schema/internal/compiler');
 
 const _ = require('lodash');
-const { equal, deepEqual } = require('assert');
+const { equal, deepEqual } = require('node:assert');
 const knex = require('../../../knex');
 
 describe('SQLite SchemaBuilder', function () {

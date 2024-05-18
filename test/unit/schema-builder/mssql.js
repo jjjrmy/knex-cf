@@ -8,7 +8,7 @@ const client = new MSSQL_Client({ client: 'mssql' });
 
 describe('MSSQL SchemaBuilder', function () {
   let tableSql;
-  const equal = require('assert').equal;
+  const equal = require('node:assert').equal;
 
   it('throws when charset and collate are specified', function () {
     expect(() => {

@@ -6,7 +6,7 @@ const knex = require('../../../knex');
 describe('SchemaBuilder Extensions', () => {
   const client = new MySQL_Client({ client: 'mysql' });
 
-  const equal = require('assert').equal;
+  const equal = require('node:assert').equal;
   const functionToExtend = () => true;
   knex.SchemaBuilder.extend('tryCreateTable', functionToExtend);
   knex.TableBuilder.extend('testCol', functionToExtend);

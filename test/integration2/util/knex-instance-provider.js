@@ -1,4 +1,4 @@
-const { promisify } = require('util');
+const { promisify } = require('node:util');
 const knex = require('../../../lib');
 const testConfig =
   (process.env.KNEX_TEST && require(process.env.KNEX_TEST)) || {};

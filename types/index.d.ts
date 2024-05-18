@@ -8,7 +8,7 @@
 
 import tarn = require('tarn');
 import events = require('events');
-import stream = require('stream');
+import stream = require('node:stream');
 import ResultTypes = require('./result');
 
 import { Tables } from './tables';

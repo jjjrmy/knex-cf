@@ -5,8 +5,8 @@ chai.use(require('chai-as-promised'));
 const { expect } = chai;
 const { FileTestHelper } = require('cli-testlab');
 
-const equal = require('assert').equal;
-const fs = require('fs');
+const equal = require('node:assert').equal;
+const fs = require('node:fs');
 const path = require('path');
 const rimraf = require('rimraf');
 const knexLib = require('../../../knex');

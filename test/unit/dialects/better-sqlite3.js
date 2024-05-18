@@ -1,7 +1,7 @@
 'use strict';
 const path = require('path');
 const expect = require('chai').expect;
-const fs = require('fs');
+const fs = require('node:fs');
 const knex = require('../../../knex');
 
 describe('better-sqlite3 unit tests', () => {

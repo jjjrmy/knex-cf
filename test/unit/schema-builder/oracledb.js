@@ -10,7 +10,7 @@ const client = new Oracle_Client({ client: 'oracledb', version: '18.0' });
 
 describe('OracleDb SchemaBuilder', function () {
   let tableSql;
-  const equal = require('assert').equal;
+  const equal = require('node:assert').equal;
 
   it('test basic create table with charset and collate', function () {
     tableSql = client.schemaBuilder().createTable('users', function (table) {

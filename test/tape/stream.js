@@ -1,7 +1,7 @@
 'use strict';
 
 const tape = require('tape');
-const stream = require('stream');
+const stream = require('node:stream');
 const { isPostgreSQL } = require('../util/db-helpers');
 
 module.exports = function (knex) {

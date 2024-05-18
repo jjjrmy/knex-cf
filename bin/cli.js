@@ -463,7 +463,7 @@ if (argv.esm) {
     } catch (err) {
       if (err && err.code === 'ERR_REQUIRE_ESM') {
         return m._compile(
-          require('fs').readFileSync(fileName, 'utf8'),
+          require('node:fs').readFileSync(fileName, 'utf8'),
           fileName
         );
       }

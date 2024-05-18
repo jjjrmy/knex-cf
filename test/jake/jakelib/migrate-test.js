@@ -3,7 +3,7 @@
 /* eslint-disable no-undef */
 
 const os = require('os');
-const fs = require('fs');
+const fs = require('node:fs');
 const rimrafSync = require('rimraf').sync;
 const path = require('path');
 const sqlite3 = require('sqlite3');

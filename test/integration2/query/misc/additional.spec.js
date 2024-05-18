@@ -1,7 +1,7 @@
 /*eslint no-var:0, max-len:0 */
 'use strict';
 
-const util = require('util');
+const util = require('node:util');
 const chai = require('chai');
 chai.use(require('chai-as-promised'));
 chai.use(require('sinon-chai'));

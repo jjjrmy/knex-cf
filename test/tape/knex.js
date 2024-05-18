@@ -2,7 +2,7 @@
 
 const knex = require('../../lib/index');
 const test = require('tape');
-const fs = require('fs');
+const fs = require('node:fs');
 
 test('it should parse the connection string', function (t) {
   t.plan(1);

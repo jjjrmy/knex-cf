@@ -8,7 +8,7 @@ const client = new Oracle_Client({ client: 'oracledb', version: '18.0' });
 
 describe('Oracle SchemaBuilder', function () {
   let tableSql;
-  const equal = require('assert').equal;
+  const equal = require('node:assert').equal;
 
   it('test increments supports withSchema', function () {
     tableSql = client

@@ -18,7 +18,7 @@ module.exports = function (dialect) {
     }
 
     let tableSql;
-    const equal = require('assert').equal;
+    const equal = require('node:assert').equal;
 
     it('basic create table with column collate', function () {
       tableSql = client

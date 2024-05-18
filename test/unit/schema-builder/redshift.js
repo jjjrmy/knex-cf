@@ -10,7 +10,7 @@ const knex = require('../../../knex');
 const FunctionHelper = require('../../../lib/knex-builder/FunctionHelper');
 const client = new Redshift_Client({ client: 'redshift' });
 
-const equal = require('assert').equal;
+const equal = require('node:assert').equal;
 
 describe('Redshift SchemaBuilder', function () {
   it('fixes memoization regression', function () {
